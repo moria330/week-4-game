@@ -52,3 +52,6 @@ function reset(){
 }
 
 });
+for (var i = 1; i < 5; i++) {
+	$('#crystal-image').attr("value", crystalValue);
+}
