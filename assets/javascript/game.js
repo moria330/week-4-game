@@ -33,7 +33,7 @@ $(document).ready(function(){
 	for (var i = 1; i < 5; i++) {
 		var gems = $('<img>');
 		gems.addClass("crystal-image");
-		gems.attr("src", "assets/images/" + i + ".png");
+		gems.attr("src", "assets/images/" + i + ".jpg");
 		gems.attr("value", Math.round(Math.random()*(12 - 1)) + 1);
 		$('#crystals').append(gems);
 
